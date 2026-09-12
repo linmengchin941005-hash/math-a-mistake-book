@@ -180,7 +180,7 @@ ${UNITS.map(x => `- ${x}`).join("\n")}
 6. ai_note 寫一句「這題最核心的觀念」。
 7. 若照片看不清楚，不要亂猜，needs_review 設 true，並在 ai_note 說明哪裡不清楚。
 
-只輸出 JSON，不要 Markdown，不要 ```。
+只輸出 JSON，不要 Markdown，也不要使用程式碼區塊。
 格式必須是：
 {
   "unit": "指數與對數",
