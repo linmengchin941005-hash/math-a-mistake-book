@@ -1,10 +1,10 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "math-a-mistake-book",
-  "main": "src/index.js",
+  "main": "index.js",
   "compatibility_date": "2026-09-12",
   "assets": {
-    "directory": "./public",
+    "directory": ".",
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   },
